@@ -21,7 +21,7 @@ escala de cinza.
 
 #### Preto-e-branco
 
-```bash
+```zsh
 convert capa_boldrini.png -monochrome capa_boldrini_bw.png
 ```
 
@@ -29,7 +29,7 @@ convert capa_boldrini.png -monochrome capa_boldrini_bw.png
 
 #### escala de cinza
 
-```bash
+```zsh
 convert capa_boldrini.png -colorspace GRAY capa_boldrini_gray.png
 ```
 
@@ -40,7 +40,7 @@ convert capa_boldrini.png -colorspace GRAY capa_boldrini_gray.png
 
 Escolhi em a imagem em escala de cinza pois esta me agradou mais.
 
-```bash
+```zsh
 convert capa_boldrini_gray.png -channel RGB -negate capa_boldrini_grey_inverted.png
 ```
 
@@ -51,7 +51,7 @@ convert capa_boldrini_gray.png -channel RGB -negate capa_boldrini_grey_inverted.
 Agora só me resta ampliar a imagem para que ocupe toda a folha. Escolhi um valor alto pois uma imagem grande não 
 é problema pois o sistema de impressão me deixa reduzir uma imagem para caber na folha.
 
-```bash
+```zsh
 convert capa_boldrini_grey_inverted.png -resize 220% capa_boldrini_grey_inverted_scaled.png
 ```
 
