@@ -37,6 +37,12 @@ Em seguida execute o comando abaixo para atulizar GRUB com os novos paramentros
 sudo grub-update
 ```
 
+Caso o comando grub-update não exista no sistema, use o seguinte comando
+
+```
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+```
+
 ## Referências
 
 [GRUB Remember last choice](https://askubuntu.com/questions/148662/how-to-get-grub2-to-remember-last-choice)
